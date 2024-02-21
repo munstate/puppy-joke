@@ -1,0 +1,38 @@
+.inner {
+    background: url(./images/flower-meadow-2509969_1280.jpg);
+    height:150px;
+    text-align: center;
+    position: relative;
+}   
+
+.joke{
+    color:white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dog{
+    max-width: 50%; /* 이미지의 최대 너비를 화면에 맞게 조절 */
+      height: auto; /* 높이를 자동으로 조정하여 비율 유지 */
+      display: block; /* 이미지를 가운데 정렬하기 위해 */
+      margin: 0 auto; /* 이미지를 가운데 정렬하기 위해 */
+    display: flex;
+    justify-content: center;
+    
+}
+.bt{
+    background-color: brown;
+}
+.bt.textbox {
+    height: 100px;
+}
+.bt.image{
+
+}
+.text{
+    text-align: center;
+}
